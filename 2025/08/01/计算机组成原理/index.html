@@ -19,24 +19,29 @@
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"example.com","root":"/","images":"/images","scheme":"Gemini","darkmode":false,"version":"8.23.2","exturl":false,"sidebar":{"position":"left","width_expanded":320,"width_dual_column":240,"display":"always","padding":18,"offset":12},"hljswrap":true,"codeblock":{"theme":{"light":"default","dark":"stackoverflow-dark"},"prism":{"light":"prism","dark":"prism-dark"},"copy_button":{"enable":false,"style":null},"fold":{"enable":false,"height":500},"language":false},"bookmark":{"enable":true,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"duration":200,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"}}</script><script src="/js/config.js" defer></script>
 
-    <meta name="description" content="Natsume的个人博客">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Natsume">
-<meta property="og:url" content="http://example.com/index.html">
+    <meta name="description" content="计算机组成原理计算机系统概述*计算机发展历程（选学）机器字长，是指计算机进行一次整数运算所能处理的二进制数据的位数。 计算机系统层次结构硬件系统与软件系统共同构建了一个完整的计算机系统，硬件是有形的物理设备，软件是指在硬件上运行的程序和相关的数据及文档。 软&#x2F;硬件在逻辑功能上是等价的。 计算机硬件冯诺依曼机基本思想1.采用“存储程序”的工作方式； 2.计算机硬件系统由运算器、存储器、控制">
+<meta property="og:type" content="article">
+<meta property="og:title" content="计算机组成原理">
+<meta property="og:url" content="http://example.com/2025/08/01/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86/index.html">
 <meta property="og:site_name" content="Natsume">
-<meta property="og:description" content="Natsume的个人博客">
+<meta property="og:description" content="计算机组成原理计算机系统概述*计算机发展历程（选学）机器字长，是指计算机进行一次整数运算所能处理的二进制数据的位数。 计算机系统层次结构硬件系统与软件系统共同构建了一个完整的计算机系统，硬件是有形的物理设备，软件是指在硬件上运行的程序和相关的数据及文档。 软&#x2F;硬件在逻辑功能上是等价的。 计算机硬件冯诺依曼机基本思想1.采用“存储程序”的工作方式； 2.计算机硬件系统由运算器、存储器、控制">
 <meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/SourceAn/BlogPictures/202508011221729.png">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/SourceAn/BlogPictures/202508011328085.png">
+<meta property="article:published_time" content="2025-08-01T07:01:57.767Z">
+<meta property="article:modified_time" content="2025-08-01T12:51:38.790Z">
 <meta property="article:author" content="Natsume">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://cdn.jsdelivr.net/gh/SourceAn/BlogPictures/202508011221729.png">
 
 
-<link rel="canonical" href="http://example.com/">
+<link rel="canonical" href="http://example.com/2025/08/01/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86/">
 
 
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":true,"isPost":false,"lang":"zh-CN","comments":"","permalink":"","path":"index.html","title":""}</script>
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"http://example.com/2025/08/01/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86/","path":"2025/08/01/计算机组成原理/","title":"计算机组成原理"}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
-<title>Natsume - Natsume</title>
+<title>计算机组成原理 | Natsume</title>
   
 
 
@@ -86,7 +91,7 @@
 
     <a href="/" class="brand" rel="start">
       <i class="logo-line"></i>
-      <h1 class="site-title">Natsume</h1>
+      <p class="site-title">Natsume</p>
       <i class="logo-line"></i>
     </a>
       <p class="site-subtitle" itemprop="description">Natsume</p>
@@ -113,7 +118,7 @@
   
   <aside class="sidebar">
 
-    <div class="sidebar-inner sidebar-overview-active">
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
       <ul class="sidebar-nav">
         <li class="sidebar-nav-toc">
           文章目录
@@ -126,6 +131,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86"><span class="nav-number">1.</span> <span class="nav-text">计算机组成原理</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%B3%BB%E7%BB%9F%E6%A6%82%E8%BF%B0"><span class="nav-number">1.1.</span> <span class="nav-text">计算机系统概述</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%8F%91%E5%B1%95%E5%8E%86%E7%A8%8B%EF%BC%88%E9%80%89%E5%AD%A6%EF%BC%89"><span class="nav-number">1.1.1.</span> <span class="nav-text">*计算机发展历程（选学）</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%B3%BB%E7%BB%9F%E5%B1%82%E6%AC%A1%E7%BB%93%E6%9E%84"><span class="nav-number">1.1.2.</span> <span class="nav-text">计算机系统层次结构</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A1%AC%E4%BB%B6"><span class="nav-number">1.1.2.1.</span> <span class="nav-text">计算机硬件</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#%E5%86%AF%E8%AF%BA%E4%BE%9D%E6%9B%BC%E6%9C%BA%E5%9F%BA%E6%9C%AC%E6%80%9D%E6%83%B3"><span class="nav-number">1.1.2.1.1.</span> <span class="nav-text">冯诺依曼机基本思想</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%9A%84%E5%8A%9F%E8%83%BD%E9%83%A8%E4%BB%B6"><span class="nav-number">1.1.2.1.2.</span> <span class="nav-text">计算机的功能部件</span></a></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%BD%AF%E4%BB%B6"><span class="nav-number">1.1.2.2.</span> <span class="nav-text">计算机软件</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#%E7%B3%BB%E7%BB%9F%E8%BD%AF%E4%BB%B6%E5%92%8C%E5%BA%94%E7%94%A8%E8%BD%AF%E4%BB%B6"><span class="nav-number">1.1.2.2.1.</span> <span class="nav-text">系统软件和应用软件</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#%E4%B8%89%E4%B8%AA%E7%BA%A7%E5%88%AB%E7%9A%84%E8%AF%AD%E8%A8%80"><span class="nav-number">1.1.2.2.2.</span> <span class="nav-text">三个级别的语言</span></a></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%B3%BB%E7%BB%9F%E7%9A%84%E5%B1%82%E6%AC%A1%E7%BB%93%E6%9E%84"><span class="nav-number">1.1.2.3.</span> <span class="nav-text">计算机系统的层次结构</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%B3%BB%E7%BB%9F%E7%9A%84%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86"><span class="nav-number">1.1.2.4.</span> <span class="nav-text">计算机系统的工作原理</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#%E2%80%9D%E5%AD%98%E5%82%A8%E7%A8%8B%E5%BA%8F%E2%80%9C%E5%B7%A5%E4%BD%9C%E6%96%B9%E5%BC%8F"><span class="nav-number">1.1.2.4.1.</span> <span class="nav-text">”存储程序“工作方式</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#%E4%BB%8E%E6%BA%90%E7%A8%8B%E5%BA%8F%E5%88%B0%E5%8F%AF%E6%89%A7%E8%A1%8C%E6%96%87%E4%BB%B6"><span class="nav-number">1.1.2.4.2.</span> <span class="nav-text">从源程序到可执行文件</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#%E6%8C%87%E4%BB%A4%E6%89%A7%E8%A1%8C%E8%BF%87%E7%A8%8B%E7%9A%84%E6%8F%8F%E8%BF%B0"><span class="nav-number">1.1.2.4.3.</span> <span class="nav-text">指令执行过程的描述</span></a></li></ol></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%9A%84%E6%80%A7%E8%83%BD%E6%8C%87%E6%A0%87"><span class="nav-number">1.1.3.</span> <span class="nav-text">计算机的性能指标</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%9A%84%E4%B8%BB%E8%A6%81%E6%80%A7%E8%83%BD%E6%8C%87%E6%A0%87"><span class="nav-number">1.1.3.1.</span> <span class="nav-text">计算机的主要性能指标</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#%E6%9C%BA%E5%99%A8%E5%AD%97%E9%95%BF"><span class="nav-number">1.1.3.1.1.</span> <span class="nav-text">机器字长</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#%E6%95%B0%E6%8D%AE%E9%80%9A%E8%B7%AF%E5%B8%A6%E5%AE%BD"><span class="nav-number">1.1.3.1.2.</span> <span class="nav-text">数据通路带宽</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#%E4%B8%BB%E5%AD%98%E5%AE%B9%E9%87%8F"><span class="nav-number">1.1.3.1.3.</span> <span class="nav-text">主存容量</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#%E8%BF%90%E7%AE%97%E9%80%9F%E5%BA%A6"><span class="nav-number">1.1.3.1.4.</span> <span class="nav-text">运算速度</span></a><ol class="nav-child"><li class="nav-item nav-level-6"><a class="nav-link" href="#1-%E5%90%9E%E5%90%90%E9%87%8F%E5%92%8C%E5%93%8D%E5%BA%94%E6%97%B6%E9%97%B4"><span class="nav-number">1.1.3.1.4.1.</span> <span class="nav-text">1.吞吐量和响应时间</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#2-%E4%B8%BB%E9%A2%91%E5%92%8CCPU%E6%97%B6%E9%92%9F%E5%91%A8%E6%9C%9F"><span class="nav-number">1.1.3.1.4.2.</span> <span class="nav-text">2.主频和CPU时钟周期</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#3-CPI%EF%BC%88%E6%89%A7%E8%A1%8C%E4%B8%80%E6%9D%A1%E6%8C%87%E4%BB%A4%E6%89%80%E9%9C%80%E7%9A%84%E6%97%B6%E9%92%9F%E5%91%A8%E6%9C%9F%E6%95%B0%EF%BC%89"><span class="nav-number">1.1.3.1.4.3.</span> <span class="nav-text">3.CPI（执行一条指令所需的时钟周期数）</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#4-CPU%E6%89%A7%E8%A1%8C%E6%97%B6%E9%97%B4%EF%BC%88%E8%BF%90%E8%A1%8C%E4%B8%80%E4%B8%AA%E7%A8%8B%E5%BA%8F%E6%89%80%E8%8A%B1%E8%B4%B9%E7%9A%84%E6%97%B6%E9%97%B4%EF%BC%89"><span class="nav-number">1.1.3.1.4.4.</span> <span class="nav-text">4.CPU执行时间（运行一个程序所花费的时间）</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#5-MIPS%EF%BC%88%E6%AF%8F%E7%A7%92%E6%89%A7%E8%A1%8C%E5%A4%9A%E5%B0%91%E7%99%BE%E4%B8%87%E6%9D%A1%E6%8C%87%E4%BB%A4%EF%BC%89"><span class="nav-number">1.1.3.1.4.5.</span> <span class="nav-text">5.MIPS（每秒执行多少百万条指令）</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#6-FLOPS%EF%BC%88%E6%AF%8F%E7%A7%92%E6%89%A7%E8%A1%8C%E5%A4%9A%E5%B0%91%E6%AC%A1%E6%B5%AE%E7%82%B9%E8%BF%90%E7%AE%97%EF%BC%89"><span class="nav-number">1.1.3.1.4.6.</span> <span class="nav-text">6.FLOPS（每秒执行多少次浮点运算）</span></a></li></ol></li><li class="nav-item nav-level-5"><a class="nav-link" href="#%E5%9F%BA%E5%87%86%E7%A8%8B%E5%BA%8F"><span class="nav-number">1.1.3.1.5.</span> <span class="nav-text">基准程序</span></a></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%87%A0%E4%B8%AA%E4%B8%93%E4%B8%9A%E6%9C%AF%E8%AF%AD"><span class="nav-number">1.1.3.2.</span> <span class="nav-text">几个专业术语</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98Q-A"><span class="nav-number">1.1.4.</span> <span class="nav-text">常见问题Q&amp;A</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1-%E7%BF%BB%E8%AF%91%E7%A8%8B%E5%BA%8F%E3%80%81%E8%A7%A3%E9%87%8A%E7%A8%8B%E5%BA%8F%E3%80%81%E6%B1%87%E7%BC%96%E7%A8%8B%E5%BA%8F%E3%80%81%E7%BC%96%E8%AF%91%E7%A8%8B%E5%BA%8F%E7%9A%84%E5%8C%BA%E5%88%AB%E5%92%8C%E8%81%94%E7%B3%BB%E6%98%AF%EF%BC%9F"><span class="nav-number">1.1.4.1.</span> <span class="nav-text">1.翻译程序、解释程序、汇编程序、编译程序的区别和联系是？</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-%E4%BB%80%E4%B9%88%E6%98%AF%E9%80%8F%E6%98%8E%E6%80%A7%EF%BC%9F%E9%80%8F%E6%98%8E%E6%98%AF%E6%8C%87%E4%BB%80%E4%B9%88%E9%83%BD%E8%83%BD%E7%9C%8B%E8%A7%81%E5%90%97%EF%BC%9F"><span class="nav-number">1.1.4.2.</span> <span class="nav-text">2.什么是透明性？透明是指什么都能看见吗？</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3-%E5%AD%97%E3%80%81%E5%AD%97%E9%95%BF%E3%80%81%E6%9C%BA%E5%99%A8%E5%AD%97%E9%95%BF%E3%80%81%E6%8C%87%E4%BB%A4%E5%AD%97%E9%95%BF%E3%80%81%E5%AD%98%E5%82%A8%E5%AD%97%E9%95%BF%E7%9A%84%E5%8C%BA%E5%88%AB%E5%92%8C%E8%81%94%E7%B3%BB%E6%98%AF%E4%BB%80%E4%B9%88%EF%BC%9F"><span class="nav-number">1.1.4.3.</span> <span class="nav-text">3.字、字长、机器字长、指令字长、存储字长的区别和联系是什么？</span></a></li></ol></li></ol></li></ol></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -161,16 +167,17 @@
 
     </div>
 
-    <div class="main-inner index posts-expand">
+    <div class="main-inner post posts-expand">
 
-    
+
+  
 
 
 <div class="post-block">
   
   
 
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
     <link itemprop="mainEntityOfPage" href="http://example.com/2025/08/01/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -184,13 +191,13 @@
     </span>
 
     <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content=" | Natsume">
+      <meta itemprop="name" content="计算机组成原理 | Natsume">
       <meta itemprop="description" content="">
     </span>
       <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/2025/08/01/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86/" class="post-title-link" itemprop="url">计算机组成原理</a>
-        </h2>
+        <h1 class="post-title" itemprop="name headline">
+          计算机组成原理<a href="https://github.com/user-name/repo-name/tree/branch-name/subdirectory-name/_posts/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86.md" class="post-edit-link" title="编辑" rel="noopener" target="_blank"><i class="fa fa-pen-nib"></i></a>
+        </h1>
 
         <div class="post-meta-container">
           <div class="post-meta">
@@ -228,8 +235,7 @@
     
     
     
-    <div class="post-body" itemprop="articleBody">
-          <h1 id="计算机组成原理"><a href="#计算机组成原理" class="headerlink" title="计算机组成原理"></a>计算机组成原理</h1><h2 id="计算机系统概述"><a href="#计算机系统概述" class="headerlink" title="计算机系统概述"></a>计算机系统概述</h2><h3 id="计算机发展历程（选学）"><a href="#计算机发展历程（选学）" class="headerlink" title="*计算机发展历程（选学）"></a>*计算机发展历程（选学）</h3><p><strong>机器字长，是指计算机进行一次整数运算所能处理的二进制数据的位数。</strong></p>
+    <div class="post-body" itemprop="articleBody"><h1 id="计算机组成原理"><a href="#计算机组成原理" class="headerlink" title="计算机组成原理"></a>计算机组成原理</h1><h2 id="计算机系统概述"><a href="#计算机系统概述" class="headerlink" title="计算机系统概述"></a>计算机系统概述</h2><h3 id="计算机发展历程（选学）"><a href="#计算机发展历程（选学）" class="headerlink" title="*计算机发展历程（选学）"></a>*计算机发展历程（选学）</h3><p><strong>机器字长，是指计算机进行一次整数运算所能处理的二进制数据的位数。</strong></p>
 <h3 id="计算机系统层次结构"><a href="#计算机系统层次结构" class="headerlink" title="计算机系统层次结构"></a>计算机系统层次结构</h3><p>硬件系统与软件系统共同构建了一个完整的计算机系统，硬件是有形的物理设备，软件是指在硬件上运行的程序和相关的数据及文档。</p>
 <p>软&#x2F;硬件在<strong>逻辑</strong>功能上是等价的。</p>
 <h4 id="计算机硬件"><a href="#计算机硬件" class="headerlink" title="计算机硬件"></a>计算机硬件</h4><h5 id="冯诺依曼机基本思想"><a href="#冯诺依曼机基本思想" class="headerlink" title="冯诺依曼机基本思想"></a>冯诺依曼机基本思想</h5><p>1.采用“存储程序”的工作方式；</p>
@@ -332,7 +338,6 @@
 <p>以上都必须是字节的整数倍。</p>
 <p>指令字长一般取存储字长的整数倍，若指令字长等于存储字长的2倍，则需要2个访存周期来取出一条指令；若指令字长等于存储字长，则取指令周期等于机器周期。</p>
 
-      
     </div>
 
     
@@ -340,102 +345,22 @@
     
 
     <footer class="post-footer">
-        <div class="post-eof"></div>
-      
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/2025/07/19/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/" rel="prev" title="测试文章">
+                  <i class="fa fa-angle-left"></i> 测试文章
+                </a>
+            </div>
+            <div class="post-nav-item">
+            </div>
+          </div>
     </footer>
   </article>
 </div>
 
-
-
-
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2025/07/19/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="Natsume">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Natsume">
-      <meta itemprop="description" content="Natsume的个人博客">
-    </span>
-
-    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content=" | Natsume">
-      <meta itemprop="description" content="">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/2025/07/19/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/" class="post-title-link" itemprop="url">测试文章</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">发表于</span>
-
-      <time title="创建时间：2025-07-19 07:30:52" itemprop="dateCreated datePublished" datetime="2025-07-19T07:30:52+08:00">2025-07-19</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar-check"></i>
-      </span>
-      <span class="post-meta-item-text">更新于</span>
-      <time title="修改时间：2025-08-01 20:49:24" itemprop="dateModified" datetime="2025-08-01T20:49:24+08:00">2025-08-01</time>
-    </span>
-
-  
-    <span class="post-meta-break"></span>
-    <span class="post-meta-item" title="本文字数">
-      <span class="post-meta-item-icon">
-        <i class="far fa-file-word"></i>
-      </span>
-      <span class="post-meta-item-text">本文字数：</span>
-      <span>5</span>
-    </span>
-    <span class="post-meta-item" title="阅读时长">
-      <span class="post-meta-item-icon">
-        <i class="far fa-clock"></i>
-      </span>
-      <span class="post-meta-item-text">阅读时长 &asymp;</span>
-      <span>1 分钟</span>
-    </span>
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <p><img src="https://cdn.jsdelivr.net/gh/SourceAn/BlogPictures/202507190802078.jpg" alt="微信图片_20250109101522"></p>
-
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
 
 
 
